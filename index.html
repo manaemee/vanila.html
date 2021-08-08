@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <form id="login-form" class="hidden" >
+        <input required 
+        maxlength = "15"
+        type="text" 
+        placeholder="What is your name?" />
+       <input type="submit" value="Log In">
+    </form>
+    <div id=nameandclock>
+       <h1 id="greeting" class="hidden"></h1>
+       <h2 id="clock"></h2> 
+    </div>   
+       <form id="todo-form">
+           <input required type="text" placeholder="Write a To Do and Press Enter"/>
+       </form>
+     
+       <div id="weather">
+        <span></span>
+        <span></span>
+    
+       <ul id="todo-list"></ul>
+       
+    <script src="src/app.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/todo.js"></script>
+    
+</body>
+
+</html>
